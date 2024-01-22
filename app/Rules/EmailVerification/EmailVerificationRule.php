@@ -16,7 +16,7 @@ class EmailVerificationRule implements Rule
      */
     public function passes($attribute, $value)
     {
-        if (strpos($value, '@ets-pg.edu.me')) {
+        if (strpos($value, '@gmail.com')) {
             return true;
         } else {
             return false;

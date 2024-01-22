@@ -121,7 +121,7 @@
                             {{__('E-mail')}} <span style="color: red">*</span>
                             <span
                                     style="cursor: help"
-                                    data-tooltip-content="Školski email je email koji u sebi sadrži domen škole. Primjer: @ets-pg.edu.me"
+                                    data-tooltip-content="Školski email je email koji u sebi sadrži domen škole. Primjer: @gmail.com"
                                     class="text-red-500 with-tooltip">@error('email'){{$message}} <span
                                         style="font-size: 20px">!</span> @enderror
                         </span>
